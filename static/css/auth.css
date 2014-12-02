@@ -1,0 +1,197 @@
+.auth-tab {
+    margin: 70px 0 0 0;
+}
+
+.auth-tab a {
+    font-size: 16px;
+    padding: 0 30px 4px 30px;
+}
+.auth-tab .active a{
+    color: #2d88b1;
+    border-bottom: 3px solid #2d88b1;
+}
+.auth-box {
+    background: #fff no-repeat;
+    border-top: 1px solid #d0d0d0;
+    min-height: 300px;
+    margin: -1px 0 0 0;
+    padding: 54px 0;
+    font-size: 16px;
+}
+.register-by-phone {
+    background-image: url("../images/icon_bg_phone.png");
+    background-position: 600px 120px;
+}
+.auth-box .ym-grid {
+    margin: 0 0 20px 0;
+}
+.auth-box .ym-gl {
+    text-align: right;
+}
+.auth-box .ym-gl label {
+    padding: 0 20px 0 0;
+    display: inline;
+    display: inline-block;
+    position: relative;
+    line-height: 40px;
+    height: 40px;
+}
+.auth-box .ym-gl label .hl {
+    color: #ff0000;
+    display: block;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: -14px;
+    line-height: 10px;
+    text-align: center;
+    margin-top: -2px;
+    top: 50%;
+}
+.auth-box .input-wrap, .auth-box .input-check-image {
+    position: relative;
+    border: 1px solid #dddddd;
+    float: left;
+    background-position: 8px center;
+    background-repeat: no-repeat;
+    transition: all 0.2s;
+}
+.auth-box .input-active  .input-wrap{
+    border-color: #2d88b1;
+}
+.auth-box .input-error  .input-wrap{
+    border-color: #e44e4d;
+}
+.auth-box .input-wrap .input {
+    border: none;
+    width: 260px;
+    margin: 8px 12px 8px 48px;
+    height: 20px;
+    line-height: 20px;
+}
+.auth-box .input-username {
+    background-image: url("../images/icon_register_name.png");
+}
+.auth-box .input-pwd {
+    background-image: url("../images/icon_register_pwd.png");
+}
+.auth-box .input-pwd-repeat {
+    background-image: url("../images/icon_register_pwd_repeat.png");
+}
+.auth-box .input-phone {
+    background-image: url("../images/icon_register_phone.png");
+}
+.auth-box .input-phone-code {
+    background-image: url("../images/icon_register_code.png");
+}
+.auth-box .input-email {
+    background-image: url("../images/icon_register_mail.png");
+}
+
+.auth-box .input-check .input{
+    margin-left: 12px;
+    width: 80px;
+}
+.auth-box .input-check-image {
+    display: block;
+    height: 36px;
+    width: 100px;
+    margin: 0 12px;
+}
+.auth-box .btn-refresh {
+    height: 38px;
+    width: 38px;
+    display: block;
+    float: left;
+    text-indent: -999em;
+    background: url("../images/icon_auth_refresh.png") no-repeat center;
+}
+.auth-box .btn-refresh:hover {
+    background: url("../images/icon_auth_refresh_hover.png") no-repeat center;
+}
+
+.auth-box .input-phone-code .input{
+    width: 140px;
+}
+.auth-box .btn-fetch {
+    height: 38px;
+    line-height: 38px;
+    background: #dddddd;
+    color: #999;
+    padding: 0 8px;
+    margin: 0 0 0 12px;
+    display: block;
+    float: left;
+}
+.auth-box .btn-fetch:hover {
+    background: #2d88b1;
+    color: #fff;
+}
+.auth-box .read {
+    margin: 10px 0 12px 0;
+    display: block;
+}
+.auth-box .read input {
+    margin: 0 10px 0 0;
+}
+.auth-box .read a {
+    color: #2d88b1;
+}
+.auth-box .submit {
+    background: #1eb246;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    width: 320px;
+    text-align: center;
+}
+.auth-box .submit:hover {
+    background: #18a43e;
+}
+
+.auth-box .msg-box {
+    display: block;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 0 0 12px;
+    font-size: 14px;
+}
+.auth-box .msg-box .info,
+.auth-box .msg-box .error,
+.auth-box .msg-box .success {
+    display: none;
+}
+.auth-box .msg-box .success {
+    height: 38px;
+    width: 38px;
+    background: url("../images/icon_auth_success.png") center left no-repeat;
+}
+.auth-box .msg-box .error {
+    height: 38px;
+    line-height: 38px;
+    padding: 0 0 0 30px;
+    color: #e44e4d;
+    background: url("../images/icon_auth_error.png") center left no-repeat;
+}
+.auth-box .input-focus .msg-box .info {
+    display: block;
+    color: #666666;
+}
+.auth-box .input-success .msg-box .info {
+    display: none;
+}
+.auth-box .input-success .msg-box .success {
+    display: block;
+}
+.auth-box .input-error .msg-box .info,
+.auth-box .input-error .msg-box .success{
+    display: none;
+}
+.auth-box .input-error .msg-box .error {
+    display: block;
+} 

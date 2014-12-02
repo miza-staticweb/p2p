@@ -1,0 +1,263 @@
+.list-summary {
+    background: #e5e5e5;
+    border-top: 1px solid #d0d0d0;
+}
+.list-summary .ym-gbox {
+    text-align: center;
+    margin: 20px 0;
+}
+.list-summary .ym-center {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+.list-summary .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #393939;
+}
+.list-summary .count {
+    font-size: 36px;
+    margin: 16px 0 0 0;
+    color: #2d88b1;
+}
+.list-summary .ll {
+    font-size: 16px;
+    color: #666666;
+}
+
+.list-filter {
+    background: #fff;
+    border-top: 1px solid #d0d0d0;
+    margin: 24px 0 40px 0;
+    font-size: 16px;
+    line-height: 28px;
+}
+.list-filter .ym-g75 {
+    width: 72%;
+}
+.list-filter .ym-g25 {
+    width: 28%;
+}
+.list-filter .ym-gbox {
+    margin: 20px 0;
+}
+.list-filter .ym-gr .ym-gbox{
+    padding: 7px 30px;
+}
+.list-filter .ym-gl .ym-gbox {
+    padding: 7px 20px;
+    border-right: 1px solid #cccccc;
+}
+.list-filter .title {
+    color: #393939;
+    font-weight: bold;
+    font-size: 18px;
+}
+.list-filter .ym-gl .title {
+    margin-bottom: 18px;
+}
+
+.list-filter .desc {
+    margin: 16px 0 0 0;
+}
+.list-filter .ym-hlist {
+    margin: 15px 0 0 0;
+}
+.list-filter .ym-hlist li, .list-filter .ym-hlist a {
+    line-height: 32px;
+    height: 32px;
+}
+.list-filter .ym-hlist li.filter-item {
+    margin-right: 10px;
+}
+.list-filter .filter-title {
+    color: #666;
+    width: 90px;
+}
+.list-filter .ym-hlist a{
+    display: block;
+    padding: 0 8px;
+}
+.list-filter .ym-hlist .active a,.list-filter .ym-hlist .active a:hover {
+    font-weight: bold;
+    background: #2d88b1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    color: #fff;
+
+}
+
+.product-list {
+    width: 1004px;
+}
+.product-list li {
+    float: left;
+    width: 33.33333%;
+}
+.product-list li .item {
+    border: 1px solid #d0d0d0;
+    background: #fff;
+    height: 400px;
+    margin: 0 24px 32px 0;
+    position: relative;
+    padding: 20px;
+}
+.product-list .action {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.product-list .status-progress .action {
+    background: #2d88b1;
+    color: #fff;
+}
+.product-list .status-progress .action:hover {
+    background: #1f7ba4;
+}
+
+.product-list .status-back .action {
+    background: #bbbbbb;
+    color: #fff;
+}
+.product-list .status-back .action:hover {
+    background: #aaaaaa;
+}
+
+.product-list .status-done .action {
+    background: #fff;
+    color: #2d88b1;
+    height: 46px;
+    line-height: 46px;
+    border: 1px solid #2d88b1;
+}
+
+.product-list .meta {
+    position: relative;
+    line-height: 30px;
+    height: 30px;
+    padding: 0 0 0 38px;
+    color: #666666;
+}
+.product-list .meta .icon {
+    display: block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #2d88b1;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    left: 0;
+    top: 0;
+}
+.product-list .meta .dividing {
+    padding: 0 10px;
+    font-weight: lighter;
+}
+
+.product-list .title {
+    display: block;
+    color: #2d88b1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.product-list .process {
+
+}
+
+.product-list .process .process-info {
+    position: relative;
+    height: 24px;
+    margin: 0 0 4px 0;
+}
+.product-list .process .last {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+.product-list .process .hl {
+    color: #2d88b1;
+    font-size: 18px;
+    padding: 0 0 0 4px;
+}
+.product-list .process .last .hl {
+    color: #393939 !important;
+}
+.product-list .process .ll {
+    color: #2d88b1;
+    font-size: 12px;
+}
+
+.product-list .process .process-bar {
+    height: 5px;
+    position: relative;
+    background: #ddd;
+}
+.product-list .process .current-process {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.product-list .desc {
+    display: block;
+    font-size: 16px;
+    height: 120px;
+    margin: 20px 0;
+    text-align: justify;
+    overflow: hidden;
+    color: #393939;
+}
+.product-list .desc:hover {
+    text-decoration: underline;
+}
+
+.product-list .status-progress .current-process {
+    background: #2d88b1;
+}
+.product-list .status-back .current-process {
+    background: #f8c726;
+}
+.product-list .status-done .current-process {
+    background: #2d88b1;
+}
+
+.product-list .status-back .process .hl {
+    color: #f8c726;
+}
+
+.product-list .introduction {
+    text-align: center;
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+    left: 0;
+}
+.product-list .introduction .hl {
+    font-size: 28px;
+}
+.product-list .introduction .lh-l {
+    color: #1eb246;
+}
+.product-list .introduction .intro-title {
+    color: #999;
+}
+.product-list .introduction .ym-gl {
+    border-right: 1px solid #d0d0d0;
+}

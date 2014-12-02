@@ -1,0 +1,113 @@
+.product-list {
+
+}
+.product-list .ym-grid {
+    background: #fff;
+    border-top: 1px solid #d0d0d0;
+    margin: 0 0 30px 0;
+}
+.product-list .ym-g33 {
+    width: 32%;
+}
+.product-list .ym-g66 {
+    width: 68%;
+}
+.product-list .ym-gbox {
+    padding: 40px;
+}
+.product-list .cover {
+    display: block;
+    width: 230px;
+    height: 230px;
+    position: relative;
+}
+.product-list .cover:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background: #d0d0d0;
+    top: 0;
+    right: -40px;
+}
+.product-list .ym-gr .cover:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background: #d0d0d0;
+    top: 0;
+    left: -40px;
+}
+.product-list .cover img {
+    display: block;
+    width: 230px;
+}
+.product-list .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+    height: 36px;
+    line-height: 36px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.product-list .desc {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    line-height: 28px;
+}
+.product-list .desc .content {
+    height: 56px;
+    overflow: hidden;
+    margin: 0 0 30px 0;
+}
+.product-list a.desc:hover {
+    text-decoration: underline;
+}
+.product-list .status-open .desc .content{
+    height: 56px;
+}
+.product-list .status-coming .desc .content{
+    height: 84px;
+}
+.product-list .more {
+    display: block;
+    color: #666;
+    font-size: 14px;
+}
+.product-list .all {
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666666;
+    margin: 6px 0 0 0;
+    background: #eeeeee;
+}
+
+.product-list .all span{
+    display: inline;
+    display: inline-block;
+    background: url("../images/icon_search.png") no-repeat left;
+    padding: 0 0 0 30px;
+}
+.product-list .all:hover {
+    background: #f8c726;
+    color: #fff;
+}
+.product-list .all:hover span {
+    background: url("../images/icon_search_hover.png") no-repeat left;
+}
+.product-list .info {
+    color: #999;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0 0 0;
+}

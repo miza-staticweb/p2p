@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8"/>
+
+    <title>title content here</title>
+    <meta name="description" content="description content here"/>
+    <meta name="author" content="the site author"/>
+
+    <!-- mobile viewport optimisation -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/yaml/core/base.css" type="text/css"/>
+    <link rel="stylesheet" href="css/yaml/navigation/hlist.css" type="text/css"/>
+    <link rel="stylesheet" href="css/yaml/screen/screen-PAGE-layout.css" type="text/css"/>
+    <link rel="stylesheet" href="css/common.css" type="text/css"/>
+    <link rel="stylesheet" href="css/auth.css" type="text/css"/>
+
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" href="css/yaml/core/iehacks.min.css" type="text/css"/>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header class="page-header">
+        <div class="ym-wrapper">
+            <div class="ym-wbox">
+                <nav class="ym-hlist">
+                    <p class="ph-phone">全国服务热线：400-123-4567</p>
+                    <ul class="pd-nav">
+                        <li class="register"><a href="#">快速注册</a></li>
+                        <li><a href="#">立即登陆</a></li>
+                        <li><a href="#">帮助中心</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="page-menu">
+        <div class="ym-wrapper">
+            <div class="ym-wbox">
+                <nav class="ym-hlist ym-clearfix">
+                    <h1 class="page-logo"><a><img src="images/logo.png"></a></h1>
+                    <ul class="pd-nav">
+                        <li class="current-item"><a href="#">首页</a></li>
+                        <li class="has-children">
+                            <a class="title" href="#">我要理财</a>
+                            <ul class="submenu">
+                                <li><a>U计划</a></li>
+                                <li><a>散标投资</a></li>
+                                <li><a>债权转让</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">新手指导</a></li>
+                        <li><a href="#">关于我们</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="ym-wrapper page-content">
+        <div class="ym-wbox">
+            <nav class="ym-hlist auth-tab">
+                <ul>
+                    <li><a>邮箱注册</a></li>
+                    <li class="active"><a>手机注册</a></li>
+                </ul>
+            </nav>
+            <div class="auth-box register-by-phone">
+                <form class="form-box">
+                <div class="ym-grid">
+                    <div class="ym-g20 ym-gl">
+                        <div class="ym-gbox">
+                            <label for="username"><span class="hl">*</span>用户名</label>
+                        </div>
+                    </div>
+                    <div class="ym-g80 ym-gr">
+                        <div class="ym-gbox ym-contain-oh">
+                            <div class="input-wrap input-username">
+                                <input class="input" id="username" placeholder="请输入手机号/邮箱/用户名" />
+                            </div>
+                            <div class="msg-box">
+                                <div class="info">长度为4-16个字符</div>
+                                <div class="error">长度为4-16个字符之间</div>
+                                <div class="success"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ym-grid">
+                    <div class="ym-g20 ym-gl">
+                        <div class="ym-gbox">
+                            <label for="pwd"><span class="hl">*</span>登录密码</label>
+                        </div>
+                    </div>
+                    <div class="ym-g80 ym-gr">
+                        <div class="ym-gbox ym-contain-oh input-success">
+                            <div class="input-wrap input-pwd">
+                                <input class="input" id="pwd" placeholder="请输入密码" />
+                            </div>
+                            <div class="msg-box">
+                                <div class="info">长度为4-16个字符</div>
+                                <div class="error">长度为4-16个字符之间</div>
+                                <div class="success"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ym-grid">
+                    <div class="ym-g20 ym-gl">
+                        <div class="ym-gbox">
+                            <label for="pwd-repeat"><span class="hl">*</span>确认登录密码</label>
+                        </div>
+                    </div>
+                    <div class="ym-g80 ym-gr">
+                        <div class="ym-gbox ym-contain-oh input-error">
+                            <div class="input-wrap input-pwd-repeat">
+                                <input class="input" id="pwd-repeat" placeholder="请再次输入密码" />
+                            </div>
+                            <div class="msg-box">
+                                <div class="info">长度为4-16个字符</div>
+                                <div class="error">长度为4-16个字符之间</div>
+                                <div class="success"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ym-grid">
+                    <div class="ym-g20 ym-gl">
+                        <div class="ym-gbox">
+                            <label for="phone"><span class="hl">*</span>手机号码</label>
+                        </div>
+                    </div>
+                    <div class="ym-g80 ym-gr">
+                        <div class="ym-gbox ym-contain-oh">
+                            <div class="input-wrap input-phone">
+                                <input class="input" id="phone" placeholder="请输入手机号码" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ym-grid">
+                    <div class="ym-g20 ym-gl">
+                        <div class="ym-gbox">
+                            <label for="phone-code"><span class="hl">*</span>手机验证码</label>
+                        </div>
+                    </div>
+                    <div class="ym-g80 ym-gr">
+                        <div class="ym-gbox ym-contain-oh">
+                            <div class="input-wrap input-phone-code">
+                                <input class="input" id="phone-code" placeholder="请输入手机验证码" />
+                            </div>
+                            <a class="btn-fetch">点击获取</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ym-grid">
+                    <div class="ym-g20 ym-gl">
+                        <div class="ym-gbox">
+                            <label for="email"><span class="hl">*</span>常用邮箱</label>
+                        </div>
+                    </div>
+                    <div class="ym-g80 ym-gr">
+                        <div class="ym-gbox ym-contain-oh">
+                            <div class="input-wrap input-email">
+                                <input class="input" id="email" placeholder="请输入邮箱地址" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ym-grid">
+                    <div class="ym-g20 ym-gl">
+                        <div class="ym-gbox">
+                            <label for="recommand">推荐人用户名</label>
+                        </div>
+                    </div>
+                    <div class="ym-g80 ym-gr">
+                        <div class="ym-gbox ym-contain-oh">
+                            <div class="input-wrap input-username">
+                                <input class="input" id="recommand" placeholder="请输入推荐人用户名" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ym-grid">
+                    <div class="ym-g20 ym-gl">
+                        <div class="ym-gbox">
+                            <label for="phone-check"><span class="hl">*</span>图形验证码</label>
+                        </div>
+                    </div>
+                    <div class="ym-g80 ym-gr">
+                        <div class="ym-gbox ym-contain-oh">
+                            <div class="input-wrap input-check">
+                                <input class="input" id="phone-check" placeholder="证码码" />
+                            </div>
+                            <div class="input-check-image">
+                                
+                            </div>
+                            <a class="btn-refresh">刷新</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="ym-grid">
+                    <div class="ym-g20 ym-gl">
+                        <div class="ym-gbox"></div>
+                    </div>
+                    <div class="ym-g80 ym-gr">
+                        <div class="ym-gbox">
+                            <div class="read"><input type="checkbox" checked="checked" />
+                                我已经阅读并同意<a>《使用条款》</a>和<a>《隐私协议》</a>
+                            </div>
+                            <button type="submit" class="submit">免费注册</button>
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="ym-wrapper">
+            <div class="ym-wbox">
+                <div class="copyRight">
+                    © 2014 XX贷 All rights reserved
+                    <span>|</span>
+                    XX贷(北京)有限公司
+                    <span>|</span>
+                    京ICP证 100000号
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="js/auth.js"></script>
+</body>
+</html>

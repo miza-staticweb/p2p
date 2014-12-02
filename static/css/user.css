@@ -1,0 +1,451 @@
+.user-account {}
+.user-account .user-section-left {
+    width: 17%;
+}
+.user-account .user-section-right {
+    width: 83%;
+}
+.user-account .ym-gbox-left {
+    border-right: 1px solid #cccccc;
+    padding: 0;
+}
+.user-account .ym-gr .ym-gbox-right {
+    padding-left: 20px;
+}
+.user-account .user-box {
+    background: #fff;
+    min-height: 60px;
+}
+.user-account .user-box-hd {
+    border-top: 4px solid #2d88b1;
+}
+.user-menu li {
+    margin: 0 0 2px 0;
+}
+.user-menu a {
+    font-size: 16px;
+}
+.user-menu .nav-item{
+    display: block;
+    line-height: 50px;
+    height: 50px;
+    background: #e5e5e5;
+    position: relative;
+    padding: 0 0 0 45px;
+}
+.user-menu .active .nav-item, .user-menu .nav-item:hover {
+    background: #2d88b1;
+    color: #fff;
+}
+.user-menu .icon {
+    display: block;
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -13px;
+    background: url("../images/icon_accounts.png") no-repeat;
+}
+.user-menu .icon-home {
+    background-position: -44px -4px;
+}
+.user-menu .icon-money {
+    background-position: -44px -50px;
+}
+.user-menu .icon-manager {
+    background-position: -44px -102px;
+}
+.user-menu .icon-account {
+    background-position: -44px -155px;
+}
+.user-menu .icon-msg {
+    background-position: -44px -205px;
+}
+
+.user-menu .active .icon-home,
+.user-menu .nav-item:hover .icon-home {
+    background-position: -0px -4px;
+}
+.user-menu .active .icon-money,
+.user-menu .nav-item:hover .icon-money {
+    background-position: -0px -50px;
+}
+.user-menu .active .icon-manager,
+.user-menu .nav-item:hover .icon-manager {
+    background-position: -0px -102px;
+}
+.user-menu .active .icon-account,
+.user-menu .nav-item:hover .icon-account {
+    background-position: -0px -155px;
+}
+.user-menu .active .icon-msg,
+.user-menu .nav-item:hover .icon-msg {
+    background-position: -0px -205px;
+}
+
+.user-menu .submenu li{
+    padding: 0 0 0 45px;
+    margin: 10px 0;
+    position: relative;
+}
+.user-menu .submenu a {
+    color: #666666;
+}
+.user-menu .submenu a:hover,
+.user-menu .submenu .active a {
+    color: #2d88b1;
+}
+
+.user-menu .submenu .icon {
+    height: 18px;
+    width: 4px;
+    background: #2d88b1;
+    position: absolute;
+    left: 36px;
+    top: 50%;
+    margin-top: -10px;
+    display: none;
+}
+
+.user-menu .submenu a:hover .icon, .user-menu .submenu .active .icon{
+    display: block;
+}
+
+
+
+
+
+.user-profile {
+    position: relative;
+    padding: 30px;
+}
+.user-profile .user-cover {
+    display: block;
+    height: 124px;
+    width: 124px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+.user-profile .user-cover img {
+    display: block;
+    margin: 0 auto;
+}
+.user-profile .user-detail {
+    position: absolute;
+    left: 180px;
+    top: 60px;
+}
+.user-profile .user-name {
+    font-size: 20px;
+    color: #666666;
+}
+.user-profile .user-link {
+    margin: 18px 0 0 0;
+}
+.user-profile .user-link a {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: url("../images/icon_user_info.jpg") no-repeat;
+    width: 24px;
+    text-indent: -99em;
+}
+.user-profile .user-link .msg { background-position: -3px center;}
+.user-profile .user-link .phone { background-position: -44px center;}
+.user-profile .user-link .contact { background-position: -84px center;}
+
+.user-summary {
+    margin: 20px 0 0 0;
+    padding: 16px;
+    font-size: 16px;
+}
+.user-summary .header {
+    position: relative;
+    margin-top: 36px;
+}
+.user-summary .heade-first {
+    margin: 0;
+}
+.user-summary .title {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    padding: 0 0 4px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-summary .ym-grid{
+    margin: 14px 0;
+}
+.user-summary .ym-grid .ym-gl .ym-gbox{
+    position: relative;
+}
+.user-summary .ym-grid .ym-gl .ym-gbox:after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    border-right: 1px solid #2d88b1;
+    width: 1px;
+    right: 12px;
+    top: 50%;
+    margin-top: -10px;
+}
+.user-summary .item-name {
+    color: #666666;
+    display: inline;
+    display: inline-block;
+    width: 80px;
+}
+.user-summary .ym-g50 .item-name {
+    width: auto;
+    padding: 0 12px 0 0;
+}
+.user-summary .hl {
+    font-size: 20px;
+}
+.user-summary .summary-btn {
+    position: absolute;
+    right: 10px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 16px;
+    font-size: 14px;
+    color: #2d88b1;
+    border: 1px solid #2d88b1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+.user-summary .summary-btn:hover{
+    background: #2d88b1;
+    color: #fff;
+}
+
+
+.user-account .list-summary {
+    background: #e5e5e5;
+    border-top: 1px solid #d0d0d0;
+}
+.list-summary .ym-gbox {
+    text-align: center;
+    margin: 20px 0;
+}
+.list-summary .ym-center {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+.list-summary .title {
+    font-size: 18px;
+}
+.list-summary .count {
+    font-size: 28px;
+    margin: 12px 0 0 0;
+    color: #2d88b1;
+}
+.list-summary .ll {
+    font-size: 16px;
+    color: #666666;
+}
+
+.record-list {
+    font-size: 16px;
+    margin-top: 20px;
+    border-top: 1px solid #d0d0d0;
+}
+.record-list .ym-gbox{
+    padding: 16px 10px;
+}
+.record-list .search-item {
+    margin: 0 0 20px 0;
+    position: relative;
+    padding: 0 10px;
+}
+.record-list .search-border {
+    border-bottom: 1px solid #eeeeee;
+    height: 1px;
+    margin: 30px 10px;
+}
+.record-list .search-item .select {
+    font-size: 16px;
+    display: inline-block;
+
+}
+.record-list .search-item .select-year {
+    width: 80px;
+}
+.record-list .search-item .select-month {
+    width: 60px;
+}
+.record-list .search-item .select-type {
+    width: 200px;
+}
+.record-list .title {
+    color: #666666;
+    display: inline;
+    display: inline-block;
+    padding: 0 12px 0 0;
+}
+.record-list .item {
+    display: inline;
+    display: inline-block;
+}
+.record-list .start-time {
+    display: inline;
+    display: inline-block;
+}
+.record-list .end-time {
+    display: inline;
+    display: inline-block;
+    padding: 0 0 0 40px;
+}
+.record-list .time-select,
+.record-list .search-btn {
+    display: block;
+    position: absolute;
+    right: 100px;
+    height: 30px;
+    line-height: 30px;
+    top: 50%;
+    margin-top: -15px;
+}
+
+.record-list .search-btn {
+    background: #2d88b1;
+    color: #fff;
+    padding: 0 6px;
+    right: 104px;
+}
+.user-table {
+    width: 100%;
+    font-size: 14px;
+
+}
+.user-table th{
+    background: #2d88b1;
+    font-weight: lighter;
+    padding: 3px 1px 3px 6px;
+    color: #fff;
+}
+.user-table td {
+    padding: 12px 1px 0px 6px;
+}
+
+.pagination {
+    margin: 50px 0;
+}
+
+
+
+.user-statistics {
+    border-top: 1px solid #d0d0d0;
+}
+.user-statistics .header {
+    position: relative;
+    margin: 20px;
+/*margin-top: 36px;*/
+}
+.user-statistics .ym-g20 {
+    width: 16.666666%;
+}
+.user-statistics .header .title {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    padding: 0 0 4px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-statistics .ym-grid {
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.user-statistics .ym-grid .title {
+    display: block;
+    color: #666666;
+    font-size: 16px;
+}
+.user-statistics .ym-grid .hl {
+    font-size: 20px;
+}
+.user-statistics .ym-grid .ym-gl {
+    border-right: 1px solid #2d88b1;
+}
+
+
+
+
+.user-autobid {
+    font-size: 16px;
+}
+.user-autobid .autobid-content{
+    padding: 20px;
+}
+.user-autobid .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+.user-autobid .autobid-item {
+    line-height: 40px;
+}
+.user-autobid .autobid-item .ym-gl {
+    text-align: right;
+    color: #666;
+}
+.user-autobid .autobid-item .ym-gl .ym-gbox {
+    padding: 0 4px 0 0;
+}
+.user-autobid .autobid-item .bid-input {
+    border: 1px solid #ddd;
+    padding: 0 6px;
+    width: 120px;
+}
+ .user-autobid .autobid-item .bid-short-input {
+    width: 60px;
+ }
+.user-autobid .bid-select {
+    display: inline;
+    display: inline-block;
+    width: 72px;
+}
+.user-autobid .bid-label {
+    display: inline;
+    display: inline-block;
+    padding-right: 12px;
+}
+.user-autobid .require {
+    color: #ff0000;
+}
+.user-autobid .autobid-submit {
+    margin-top: 20px;
+}
+.user-autobid .bid-btn {
+    line-height: 30px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #2d88b1;
+    padding: 0 6px;
+    background: #fff;
+    color: #2d88b1;
+    cursor: pointer;
+    margin-right: 10px;
+}
+ .user-autobid .bid-btn-hl {
+    background: #2d88b1;
+    color: #fff;
+ }
+.user-autobid .bid-desc {
+    color: #666666;
+    line-height: 28px;
+    border-top: 1px solid #eeeeee;
+    padding: 24px 0 0 0;
+    margin: 32px 0 40px 0;
+}
+.user-autobid .desc-title {
+    margin-bottom: 8px;
+}
