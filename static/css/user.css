@@ -15,6 +15,7 @@
 .user-account .user-box {
     background: #fff;
     min-height: 60px;
+    border-top: 1px solid #d0d0d0;
 }
 .user-account .user-box-hd {
     border-top: 4px solid #2d88b1;
@@ -84,9 +85,16 @@
     background-position: -0px -205px;
 }
 
+.user-menu .submenu {
+    padding: 5px 0;
+    width: 100% !important;
+    display: none;
+}
+.user-menu .active .submenu {
+    display: block;
+}
 .user-menu .submenu li{
-    padding: 0 0 0 45px;
-    margin: 10px 0;
+    padding: 5px 0 5px 45px;
     position: relative;
 }
 .user-menu .submenu a {
@@ -342,7 +350,6 @@
 
 
 .user-statistics {
-    border-top: 1px solid #d0d0d0;
 }
 .user-statistics .header {
     position: relative;
@@ -448,4 +455,175 @@
 }
 .user-autobid .desc-title {
     margin-bottom: 8px;
+}
+
+
+.user-information {
+
+}
+.user-information .information-box {
+    padding: 20px;
+    
+}
+.user-information .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+}
+
+.user-information .info-item {
+    border-bottom: 1px solid #eee;
+}
+
+.user-information .info-item .ym-g28 {
+    width: 28%;
+}
+.user-information .info-item .ym-g72 {
+    width: 72%;
+}
+
+.user-information .info-header {
+    line-height: 60px;
+    height: 60px;
+    position: relative;
+}
+.user-information .info-title {
+    font-size: 18px;
+    padding: 0 0 0 70px;
+}
+.user-information .icon {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 50%;
+    margin-top: -20px;
+    left: 10px;
+    background: url("../images/icon_user_account.png") no-repeat center;
+}
+.user-information .icon-nickname { background-position: center -5px; }
+.user-information .icon-realname { background-position: center -63px; }
+.user-information .icon-pwd { background-position: center -123px; }
+.user-information .icon-mail { background-position: center -181px; }
+.user-information .icon-phone { background-position: center -240px; }
+.user-information .icon-casepwd { background-position: center -301px; }
+
+
+.user-information .info-value {
+    color: #666666;
+}
+.user-information .info-ops {
+    display: block;
+    position: absolute;
+    height: 24px;
+    line-height: 24px;
+    top: 50%;
+    width: 84px;
+    text-align: left;
+    margin-top: -10px;
+    right: 0;
+}
+.user-information .info-ops .cancel {
+    display: none;
+}
+.user-information .info-form-active .info-ops .cancel {
+    display: inline-block;
+}
+.user-information .info-form-active .info-ops .edit {
+    display: none;
+}
+.user-information a.info-ops {
+    color: #2d88b1;
+}
+.user-information a.info-ops:hover {
+    text-decoration: underline;
+}
+.user-information .info-form {
+    display: none;
+    color: #666;
+    width: 100% !important;
+}
+.user-information .info-form form {
+    display: block;
+    padding: 20px 0 30px 0;
+}
+.user-information .info-form-title {
+    color: #999999;
+    margin-left: -70px;
+}
+.user-information .show-form .info-form {
+    display: block;
+}
+.user-information .info-form-item {
+    padding: 10px 0;
+    height: 30px;
+    line-height: 30px;
+}
+.user-information .info-form .ym-gl .ym-gbox{
+    text-align: right;
+    padding: 0 10px 0 0;
+}
+.user-information .info-form .require {
+    color: #ff0000;
+}
+.user-information .info-form .info-input {
+    border: 1px solid #dddddd;
+    padding: 0 12px;
+    height: 28px;
+    line-height: 28px;
+    width: 166px;
+    font-style: 14px;
+}
+.user-information .info-form .info-submit {
+    display: block;
+    font-size: 16px;
+    background: #1eb246;
+    color: #fff;
+    text-align: center;
+    border: none;
+    line-height: 30px;
+    height: 30px;
+    width: 112px;
+    margin-top: 6px;
+}
+.user-information .info-form .info-submit:hover {
+    background: #18a43e;
+    cursor: pointer;
+}
+
+.user-information .info-form-step {
+    text-align: center;
+    width: 410px;
+    position: relative;
+    margin-left: -50px;
+}
+.user-information .info-form-step .step-line {
+    position: absolute;
+    width: 300px;
+    background: #eeeeee;
+    height: 5px;
+    left: 60px;
+    top: 20px;
+    z-index: 0;
+}
+.user-information .info-form-step .step-icon {
+    display: block;
+    margin: 0 auto 4px auto;
+    height: 44px;
+    width: 44px;
+    position: relative;
+    z-index: 99;
+    background: url("../images/icon_account_step.png") center no-repeat;
+}
+.user-information .info-form-step .step-one .step-icon{background-position: -127px 2px;}
+.user-information .info-form-step .step-two  .step-icon{background-position: 1px -54px;}
+.user-information .info-form-step .step-three .step-icon{background-position: -65px -54px;}
+
+.user-information .info-form-step .active .step-one .step-icon{background-position: -127px -54px;}
+.user-information .info-form-step .active .step-two .step-icon{background-position: 1px -2px;}
+.user-information .info-form-step .active .step-three .step-icon{background-position: -65px -2px;}
+
+.user-information .info-form-step .active { color: #1eb246 }
+.user-information .info-form .info-fetchnum {
+    display: inline-block;
+    margin: 0 0 0 12px;
 }
