@@ -1,0 +1,91 @@
+html, body {height: 100%;}
+body {background: #e5e5e5;}
+.page-content .ym-wbox {min-height: 0;}
+.login-box {background: #2d88b1; color: #666;}
+.login-box .ym-wbox {background: url("../images/bg_loginpage.png") no-repeat 50px bottom;}
+
+.login-box .login-form {
+    background: #fff;
+    padding: 24px;
+    float: right;
+    margin: 30px;
+}
+.login-box .form-item {
+    margin: 0 0 20px 0;
+}
+.login-box .form-tools {
+    margin-top: -6px;
+}
+.login-box .input-wrap {
+    position: relative;
+    border: 1px solid #dddddd;
+    float: left;
+    background-position: 8px center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    font-size: 16px;
+}
+.login-box .input-username {
+    background-image: url("../images/icon_register_name.png");
+}
+.login-box .input-pwd {
+    background-image: url("../images/icon_register_pwd.png");
+}
+.login-box .input-wrap .input {
+    border: none;
+    width: 260px;
+    margin: 8px 12px 8px 48px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+}
+.login-box .input-checkbox {
+    display: block;
+    position: relative;
+    float: left;
+    line-height: 24px;
+    height: 24px;
+    padding: 0 0 0 20px;
+}
+.login-box .input-checkbox input{
+    position: absolute;
+    display: block;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    top: 50%;
+    margin-top: -8px;
+}
+.login-box .forget-pwd {
+    display: block;
+    float: right;
+    color: #666;
+}
+.login-box a:hover {
+    text-decoration: underline;
+}
+.login-box .form-submit .input-submit {
+    display: block;
+    width: 100%;
+    background: #1eb246;
+    border: none;
+    color: #fff;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+.login-box .form-submit .input-submit:hover {
+    background: #18a43e;
+    cursor: pointer;
+}
+
+.login-box .form-submit .register {
+    text-align: center;
+    margin: 12px 0 0 0;
+}
+
+.login-box .form-submit .register a {
+    color: #2d88b1;
+
+}
