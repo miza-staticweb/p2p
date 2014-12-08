@@ -327,6 +327,12 @@
     color: #fff;
     padding: 0 6px;
     right: 104px;
+    border: none;
+}
+.no-table-data {
+    padding: 15px 0 30px 0;
+    text-align: center;
+    font-size: 16px;
 }
 .user-table {
     width: 100%;
@@ -399,6 +405,29 @@
 }
 .user-autobid .autobid-item {
     line-height: 40px;
+}
+.user-autobid .autobid-status {
+    padding: 10px 0 20px 0;
+    line-height: 32px;
+    height: 32px;
+}
+.user-autobid .autobid-status-name {
+    color: #2d88b1;
+    font-size: 28px;
+}
+.user-autobid .autobid-status-btn {
+    display: block;
+    float: right;
+    border: 1px solid #2d88b1;
+    padding: 0 40px;
+    height: 30px;
+    line-height: 30px;
+    color: #2d88b1;
+    margin-right: 40px;
+}
+.user-autobid .autobid-status-btn:hover {
+    background: #2d88b1;
+    color: #fff;
 }
 .user-autobid .autobid-item .ym-gl {
     text-align: right;
@@ -626,4 +655,151 @@
 .user-information .info-form .info-fetchnum {
     display: inline-block;
     margin: 0 0 0 12px;
+}
+
+
+
+
+/*****user message **/
+.user-msg .title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0;
+    margin: 0 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+.user-msg .msg-header {
+    margin: 20px 0;
+}
+.user-msg .msg-filter {
+    display: block;
+    float: left;
+    margin-left: 12px;
+}
+.user-msg span.msg-filter {
+    margin-left: 20px;
+}
+.user-msg .msg-active {
+    color: #2d88b1;
+}
+.user-msg .msg-op {
+    float: right;
+    margin-right: 20px;
+}
+.user-msg .msg-op-item {
+    display: block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    background: #2d88b1;
+    padding: 0 12px;
+    color: #fff;
+    font-weight: lighter;
+    margin: 0 0 0 8px;
+}
+.user-msg .msg-op-item:hover {
+    background: #1f7ba4;
+}
+.user-msg .msg-table {
+    padding: 0 20px;
+}
+.user-msg .msg-table table {
+    width: 100%;
+}
+.user-msg td,
+.user-msg th {
+    line-height: 34px;
+    height: 34px;
+    padding: 0 8px;
+}
+.user-msg .msg-table th{
+    background: #eee;
+    font-weight: lighter;
+}
+.user-msg td.msg-status {
+    color: #666;
+}
+.user-msg td.msg-date {
+    color: #999;
+    font-weight: lighter !important;
+}
+.user-msg .msg-unread {
+    font-weight: bold;
+}
+.user-msg .msg-checkbox {
+    text-align: center;
+    width: 30px;
+}
+.user-msg .msg-date {
+    white-space: nowrap;
+    width: 140px;
+    padding-right: 0;
+}
+.user-msg tbody tr:hover{
+    background: #eeeeee;
+    cursor: pointer;
+}
+
+.user-msg tbody td {
+    border-bottom: 1px solid #eee;
+    white-space: nowrap;
+}
+.user-msg .msg-status {
+    width: 50px;
+}
+.user-msg .msg-icon {
+    width: 20px;
+}
+.user-msg .msg-sender {
+    width: 100px;
+}
+
+
+.my-bid {
+    margin-top: 0;
+    border-top: none !important;
+}
+.my-bid .ym-gbox {
+    padding: 0 !important;
+}
+.my-bid .bid-form {
+    display: block;
+    padding: 16px 10px 0 16px;
+}
+.my-bid .bid-table {
+    padding: 0 10px;
+}
+.my-bid .bid-input {
+    border: 1px solid #ddd;
+    padding: 0 6px;
+    width: 180px;
+}
+.my-bid .search-btn {
+    padding: 0 24px;
+}
+.my-bid .bid-tab {
+    margin-bottom: 20px;
+    background: #eee;
+}
+.my-bid .bid-tab ul {
+    list-style: none;
+}
+.my-bid .bid-tab li {
+    list-style: none;
+    float: left;
+}
+.my-bid .bid-tab a{
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 16px;
+    border-top: 2px solid #eee;
+}
+.my-bid .bid-tab .active a{
+    border-top: 2px solid #2d88b1;
+    color: #2d88b1;
+    background: #fff;
 }
