@@ -1,0 +1,42 @@
+html, body {height: 100%;}
+body {background: #e5e5e5;}
+.page-content .ym-wbox {min-height: 0;}
+.maintain {background: #f4f4f4; color: #666;}
+.maintain .ym-wbox {
+    min-height: 300px;
+}
+.error-500 {
+    background: url("../images/bg_500error.png") no-repeat right top;
+    height: 500px;
+    position: relative;
+}
+.error-500 p {
+    font-size: 20px;
+    line-height: 32px;
+    color: #565656;
+    position: absolute;
+    top: 314px;
+    left: 155px;
+}
+.error-404 {
+    background: url("../images/bg_404.png") no-repeat center 60px;
+    height: 540px;
+    position: relative;
+}
+.error-404 a {
+    position: absolute;
+    display: block;
+    font-size: 20px;
+    color: #666666;
+    font-weight: bold;
+    background: #d4d4d4;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 30px;
+    bottom: 46px;
+    left: 358px;
+}
