@@ -668,6 +668,13 @@
     margin: 0 20px;
     border-bottom: 1px solid #eeeeee;
 }
+.user-msg .title .ll {
+    font-size: 14px;
+    font-weight: lighter;
+}
+.user-msg .title .cl {
+    color: #2d88b1;
+}
 .user-msg .msg-header {
     margin: 20px 0;
 }
@@ -750,6 +757,15 @@
 }
 .user-msg .msg-icon {
     width: 20px;
+}
+.user-msg .msg-icon .icon {
+    display: block;
+    width: 23px;
+    height: 20px;
+    background: url("../images/icon_user_msg.png") no-repeat center -50px;
+}
+.user-msg .msg-unread .msg-icon .icon {
+    background-position: center 2px;
 }
 .user-msg .msg-sender {
     width: 100px;

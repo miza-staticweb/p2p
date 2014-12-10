@@ -158,7 +158,7 @@
     font-size: 18px;
     text-align: left;
 }
-.block-table .icon-type, .block-table .icon-level {
+.block-table .icon-type{
     color: #fff;
     display: block;
     -webkit-border-radius: 50%;
@@ -174,13 +174,13 @@
     line-height: 28px;
     font-size: 16px;
 }
-.block-table .icon-level {
+/*.block-table .icon-level {
     background: #1eb246;
     height: 40px;
     width: 40px;
     line-height: 40px;
-}
-.block-table .level-aaa {
+}*/
+/*.block-table .level-aaa {
     background: #1eb246;
 }
 .block-table .level-aa {
@@ -191,7 +191,7 @@
 }
 .block-table .level-hr {
     background: #c73681;
-}
+}*/
 .block-table .ll {
     font-size: 12px;
 }

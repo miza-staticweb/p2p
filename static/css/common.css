@@ -81,6 +81,36 @@ input, select, textarea, button {
     border-left: none;
     color: #2d88b1;
 }
+.page-header .login-user {
+    border-right: none !important;
+}
+.page-header .login-user a{
+    display: inline-block;
+    border: none;
+}
+.page-header .login-user a:hover {
+    background: none;
+}
+.page-header .user-msg {
+    border-left: none;
+}
+.page-header .user-msg a{
+    border-left: none;
+    position: relative;
+    padding-right: 24px;
+}
+.page-header .user-msg .msg-num {
+    position: absolute;
+    width: 28px;
+    height: 18px;
+    top: 0;
+    right: 0;
+    line-height: 18px;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    background: url("../images/icon_msg_num.png") no-repeat center;
+}
 
 .page-menu {
     background: #fff;
@@ -419,3 +449,25 @@ input, select, textarea, button {
     background: #2d88b1 !important;
     color: #fff !important;
 }
+
+
+
+/**level**/
+.icon-level {
+    color: #fff !important;
+    display: block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.icon-level.level-hr {background: #c73681;}
+.icon-level.level-aaa {background: #1eb246;}
+.icon-level.level-aa {background: #92b615;}
+.icon-level.level-a {background: #92b615;}
+.icon-level.level-hr {background: #c73681;}
