@@ -819,3 +819,178 @@
     color: #2d88b1;
     background: #fff;
 }
+
+
+.recharge {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+}
+.recharge-content {
+    padding: 16px;
+}
+.recharge .recharge-content {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.recharge .recharge-msg {
+    color: #999;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    position: relative;
+    background: url("../images/icon_recharge_notic.png") no-repeat left center;
+}
+.recharge-btn {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    background: #2d88b1;
+    color: #fff;
+    width: 116px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.recharge-btn:hover {
+    background: #1f7ba4;
+    color: #fff;
+}
+
+.recharge .recharge-msg .recharge-btn {
+    position: absolute;
+    right: 100px;
+    top: 0;
+}
+
+.recharge .recharge-item {
+    line-height: 40px;
+}
+.recharge .recharge-item .label,
+.recharge .recharge-item .value,
+.recharge .recharge-extral,
+.recharge .recharge-item .real-value {
+    display: block;
+    float: left;
+}
+.recharge .recharge-extral.recharge-btn{margin-top: 5px; margin-left: 12px;}
+.recharge .recharge-item .real-value {margin-left: 120px;}
+.recharge .recharge-item .real-value .ll {color: #666;}
+.recharge .recharge-item .ll-notic {color: #999;}
+
+.recharge .recharge-item .recharge-input {
+    height: 28px;
+    line-height: 28px;
+    padding: 0 8px;
+    border: 1px solid #ddd;
+    width: 136px;
+}
+
+.recharge .recharge-item .label {
+    width: 120px;
+    text-align: right;
+    color: #666;
+}
+
+.recharge-bank {
+
+}
+.recharge-title {
+    font-size: 18px;
+}
+.recharge-bank .ym-grid {
+    margin: 30px 0;
+}
+.recharge-bank .ym-g33 input,
+.recharge-bank .ym-g33 img {
+    display: block;
+    float: left;
+}
+.recharge-bank .ym-g33 input {
+    width: 30px;
+    height: 38px;
+    line-height: 38px;
+}
+.recharge-bank .ym-g33 img {
+    height: 36px;
+    border: 1px solid #dddddd;
+}
+
+.recharge-bank .recharge-bank-btn {
+    margin: 30px 0 40px 0;
+}
+.recharge-bank .recharge-bank-btn .recharge-btn {
+    margin: 0 auto;
+}
+
+.withdrawals .recharge-content {
+    padding-top: 16px;
+}
+.withdrawals .recharge-title {
+    margin-bottom: 20px;
+}
+.recharge .withdrawals-setting .value-setting {color: #2d88b1;}
+
+.recharge-sbumit {border-bottom: 1px solid #eee;}
+.recharge-sbumit .recharge-btn{margin: 30px 0 40px 120px;}
+.withdrawals .user-table {margin-top: 30px;}
+.recharge .phone-checking .recharge-extral.recharge-btn {width: auto;padding: 0 6px; margin-top: 6px;}
+.withdrawals-bank-ready .withdrawals-setting .value-setting,
+.withdrawals-bank-ready .withdrawals-setting .recharge-btn {display: none !important;}
+.withdrawals-bank-notready .value-setting-done {display: none !important;}
+.withdrawals-bank-notready .recharge-item .recharge-input{background: #eeeeee;}
+.withdrawals-bank-notready .phone-checking .recharge-extral.recharge-btn,
+.withdrawals-bank-notready .recharge-sbumit .recharge-btn {background: #ddd;cursor: default;}
+
+
+
+.user-account .trusteeship-box {border: none; margin-bottom: 20px; font-size: 16px;}
+.trusteeship-box .trusteeship-content {padding: 16px;overflow: hidden;}
+.user-account .trusteeship-header {border-top: 4px solid #2d88b1;}
+.trusteeship-header .ym-contain-oh .trusteeship-info,
+.trusteeship-header .ym-contain-oh .trusteeship-btn {
+    display: block;
+    float: left;
+}
+.trusteeship-header .ym-contain-oh {height: 80px;margin: 8px 0;}
+.trusteeship-header .ym-contain-oh .trusteeship-btn {
+    background: #2d88b1;
+    color: #fff;
+    width: 200px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    margin: 12px 0 0 40px;
+}
+.trusteeship-header .ym-contain-oh .trusteeship-btn:hover {background: #1f7ba4;}
+.trusteeship-header .trusteeship-info .label{color: #666;}
+.trusteeship-header .trusteeship-registered {line-height: 40px;}
+.trusteeship-header .trusteeship-registered .trusteeship-btn{margin-left: 120px;}
+.trusteeship-header .trusteeship-not-register {line-height: 80px; color: #666; display: none;}
+.trusteeship-unauth .trusteeship-registered {display: none;}
+.trusteeship-unauth .trusteeship-not-register {display: block;}
+.trusteeship-box .title {font-size: 18px;}
+.trusteeship-box .trusteeship-op-box {width: 794px; margin: 20px 0 30px 0;}
+.trusteeship-box .trusteeship-item {
+    color: #2d88b1;
+    display: block;
+    height: 160px;
+    width: 160px;
+    border: 1px solid #2d88b1;
+    position: relative;
+}
+.trusteeship-box .trusteeship-item:hover {background: #2d88b1; color: #fff;}
+.trusteeship-unauth .trusteeship-item {background: #dddddd !important; color: #999 !important; border-color: #ddd !important; cursor: not-allowed !important;}
+.trusteeship-box .trusteeship-item .trusteeship-name {
+    position: absolute;
+    height: 56px;
+    line-height: 28px;
+    top: 50%;
+    margin-top: -28px;
+    left: 24px;
+}
+.trusteeship-box .trusteeship-item .hl {font-size: 28px;display: block;}
+.trusteeship-introduction {color: #666666;line-height: 28px;}
+.trusteeship-introduction p {margin: 0 0 8px 0;}
