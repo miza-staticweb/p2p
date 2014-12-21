@@ -140,3 +140,100 @@
     background-position: -75px center;
     background-color: #2d88b1;
 }
+
+.about-traiff .about-container {
+    padding: 30px 20px;
+}
+.about-traiff .traiff-table {width: 100%; font-size: 16px; line-height: 32px; background: #f4f4f4;}
+.traiff-table th {background: #2d88b1; color: #fff; font-weight: lighter; text-align: center; white-space:nowrap; padding: 8px 0;}
+.traiff-table th,
+.traiff-table td {border: 1px solid #ccc;}
+.traiff-table td {text-align: justify; padding: 14px 18px;}
+.traiff-table .traiff-label {white-space:nowrap; text-align: center;}
+
+.callcenter-menu a {position: relative;}
+.callcenter-menu .icon {background: url("../images/icon_callCenter.png") no-repeat 0 0; position: absolute; height: 40px; width: 40px; left: 6px; top: 50%; margin-top: -20px;}
+.callcenter-menu .icon-account {background-position: -51px 1px;}
+.callcenter-menu .icon-finanical {background-position: -51px -50px;}
+.callcenter-menu .icon-loan {background-position: -51px -103px;}
+.callcenter-menu .icon-qa {background-position: -51px -155px;}
+.callcenter-menu .active .icon-account, .callcenter-menu a:hover .icon-account {background-position: 3px 1px;}
+.callcenter-menu .active .icon-finanical, .callcenter-menu a:hover .icon-finanical {background-position: 3px -50px;}
+.callcenter-menu .active .icon-loan, .callcenter-menu a:hover .icon-loan {background-position: 3px -103px;}
+.callcenter-menu .active .icon-qa, .callcenter-menu a:hover .icon-qa {background-position: 3px -155px;}
+
+
+.callcenter-qa .about-container {padding: 0;}
+.callcenter-qa .box-title {padding: 30px 20px 12px 20px;}
+.callcenter-qa .callcenter-qa-list {}
+.callcenter-qa .qa-item {list-style: none; border-bottom: 1px solid #ccc;}
+.callcenter-qa .qa-section {line-height: 46px;height: 46px; font-size: 16px; position: relative;}
+.callcenter-qa .qa-item:hover .qa-section,
+.callcenter-qa .qa-item.active .qa-section {background: #eee;}
+.callcenter-qa .qa-section .label {
+    position: absolute;
+    font-size: 14px;
+    background: #2d88b1;
+    color: #fff;
+    height: 22px;
+    line-height: 22px;
+    top: 50%;
+    margin-top: -11px;
+    width: 22px;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    left: 20px;
+}
+.callcenter-qa .qa-title {padding: 0 60px 0 50px;}
+.callcenter-qa .qa-btn {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    font-size: 14px;
+    color: #999;
+    height: 24px;
+    line-height: 24px;
+    top: 50%;
+    margin-top: -12px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.callcenter-qa .qa-btn span {
+    color: #2d88b1;
+    position: absolute;
+    height: 14px;
+    line-height: 14px;
+    top: 50%;
+    right: 0;
+    margin-top: -3px;
+}
+.callcenter-qa .qa-item.qa-open .qa-btn span{top: 2px;}
+
+.callcenter-qa .qa-answer {
+    padding: 36px 20px 30px 50px;
+    position: relative;
+    font-size: 14px;
+    text-align: justify;
+    border-top: 1px solid #ccc;
+    display: none;
+}
+.callcenter-qa .qa-answer .answer-label {
+    position: absolute;
+    top: 10px;
+    background: #1eb246;
+    color: #fff;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    left: 20px;
+}
+.callcenter-qa .pagination {padding: 10px 0 40px 0;}
+
