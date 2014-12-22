@@ -18,6 +18,7 @@
     padding: 54px 0;
     font-size: 16px;
 }
+.reset-auth .auth-box{min-height: 0; padding: 40px 0; border-top: 5px solid #2d88b1;}
 .register-by-phone {
     background-image: url("../images/icon_bg_phone.png");
     background-position: 600px 120px;
@@ -28,6 +29,7 @@
 .auth-box .ym-gl {
     text-align: right;
 }
+
 .auth-box .ym-gl label {
     padding: 0 20px 0 0;
     display: inline;
@@ -152,6 +154,8 @@
 .auth-box .submit:hover {
     background: #18a43e;
 }
+.auth-box .submit {background: #2d88b1;}
+.auth-box .submit:hover {background: #1f7ba4;}
 
 .auth-box .msg-box {
     display: block;
@@ -195,3 +199,8 @@
 .auth-box .input-error .msg-box .error {
     display: block;
 } 
+
+.reset-auth .reset-msg {font-size: 20px;line-height: 36px;text-align: center;padding: 40px 0;}
+.reset-auth .reset-msg .ll {font-size: 16px; color: #666666;}
+.reset-auth .reset-msg a {color: #2d88b1;}
+.reset-auth .reset-msg a:hover {text-decoration: underline;}
